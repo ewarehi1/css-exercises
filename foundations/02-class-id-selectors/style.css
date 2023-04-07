@@ -4,4 +4,9 @@
 #line-2 {
     color: #0000FF; font-size: 36px;
 }
-#line-4
+#line-4 {
+    background-color: #5DFF61; font-size: 24px; font-weight: bold;
+}
+.cooler-class {
+    font-size: 24px;
+}
