@@ -18,7 +18,7 @@ div {
 .title {
   background: #e3f4ff;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .content {
@@ -27,9 +27,14 @@ div {
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin: 0px auto;
+  padding: 5px 20px;
+  font-size: 18px;
 }
