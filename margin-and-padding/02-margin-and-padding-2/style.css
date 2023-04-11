@@ -3,10 +3,15 @@ body {
   font-family: sans-serif;
 }
 
+div {
+  margin: 10px
+}
+
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 1px;
 }
 
 .title {
