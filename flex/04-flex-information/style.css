@@ -35,3 +35,10 @@ img {
   display: flex;
   flex: auto;
 }
+
+.individual-items {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
