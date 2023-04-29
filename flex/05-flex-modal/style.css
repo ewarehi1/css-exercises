@@ -73,7 +73,6 @@ button.cancel {
 }
 
 .icon {
-  display: flex;
   flex-shrink: 0;
 }
 
@@ -82,7 +81,7 @@ button.cancel {
 }
 
 .content {
-  display: flex;
+  display: flex-column;
   flex-direction: column;
   gap: 10px;
 }
