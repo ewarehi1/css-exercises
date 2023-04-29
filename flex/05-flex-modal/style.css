@@ -68,6 +68,8 @@ button.cancel {
 /*changes*/
 .modal {
   display: flex;
+  padding: 18px;
+  gap: 18px;
 }
 
 .icon {
@@ -79,6 +81,14 @@ button.cancel {
   display: flex;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .header {
   margin-right: auto;
+  font-weight: bold;
+  font-size: 20px;
 }
