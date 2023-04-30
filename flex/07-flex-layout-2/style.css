@@ -35,22 +35,57 @@ body {
   flex-direction: column;
 }
 
+.header {
+  display:flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 32px;
+  padding-left: 16px;
+}
+
 .content {
   display: flex;
-  flex: 1 1 auto;
+  flex: 1 0 auto;
+
+}
+
+.sidebar {
+  width: 250px;
+  flex-shrink: 0;
+}
+
+ul {
+  padding: 0px;
+  margin: 5px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+a {
+  text-decoration-line: none;
+  color: white;
 }
 
 .cards {
   display: flex;
-  flex: 1 1 400px;
   flex-wrap: wrap;
+  padding: 50px;
+  gap: 30px;
 }
 
 .card {
-  width: 350px;
-  height: 350px;
+  display: flex;
+  flex: 0 0 380px;
+  width: 300px;
+  padding: 12px;
 }
 
 .footer {
+  display: flex;
   margin-top: auto;
+  align-items: center;
+  justify-content: center;
 }
