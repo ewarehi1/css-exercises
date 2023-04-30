@@ -40,7 +40,15 @@ body {
 
 ul {
   display: flex;
-  gap: 32px;
+  gap: 16px;
+  list-style-type: none;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: grey;
 }
 
 .right-links {
@@ -56,4 +64,5 @@ ul {
 
 .footer {
   display: flex;
+  background-color: #eeeeee;
 }
