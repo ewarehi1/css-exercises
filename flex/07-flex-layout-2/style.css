@@ -27,3 +27,30 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Changes */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.cards {
+  display: flex;
+  flex: 1 1 400px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 350px;
+  height: 350px;
+}
+
+.footer {
+  margin-top: auto;
+}
